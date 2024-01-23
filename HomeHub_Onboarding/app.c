@@ -671,7 +671,7 @@ void WrongCRCReceived_Over_BT(uint8_t command, uint8_t payload, uint8_t payloadl
                                            (const uint8_t *)&WrongCRCReceived_ID);
   if(sc == SL_STATUS_OK) {
       app_log_append_info("The Wrong CRC update has been sent to Mobile\n");
-
+	app_log_append_info("hi gitub\n"):
   }
 }
 
